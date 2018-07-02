@@ -1,3 +1,60 @@
+
 body{
-	background-color: red;
+    background: url(assets/images/bgd.JPG);
+    margin-top: 0px;
+}
+.nav_bar{
+    background-color: black;
+    height:60px;
+    width: 100%;
+    opacity: 0.7;
+}
+.nav_bar>a {
+    color: white;
+    font-size: 16px;
+    text-decoration:none;
+    padding: 15px;
+    position:relative;
+    top: 15px;
+    padding-left: 150px;
+    font-weight: bold;
+}
+
+div{
+
+    position: relative;
+	-webkit-animation: mymove 3s 1;
+    animation: mymove 15s ;
+}
+
+#sub_bar1 {-webkit-animation-timing-function: linear;}
+#sub_bar2 {-webkit-animation-timing-function: ease;}
+#sub_bar3 {-webkit-animation-timing-function: ease-in;}
+#sub_bar4 {-webkit-animation-timing-function: ease-out;}
+#sub_bar5 {-webkit-animation-timing-function: ease-in-out;}
+#sub_bar6 {-webkit-animation-timing-function: linear;}
+#sub_bar7 {-webkit-animation-timing-function: ease;}
+
+#sub_bar1 {animation-timing-function: linear;}
+#sub_bar2 {animation-timing-function: ease;}
+#sub_bar3 {animation-timing-function: ease-in;}
+#sub_bar4 {animation-timing-function: ease-out;}
+#sub_bar5 {animation-timing-function: ease-in-out;}
+#sub_bar6 {animation-timing-function: linear;}
+#sub_bar7 {animation-timing-function: ease;}
+
+@-webkit-keyframes mymove {
+    from {top: 0px;}
+    to {top: 300px;}
+}
+
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 50px;}
+
+}
+p{
+	color: white;
+    font-style: italic;
 }
