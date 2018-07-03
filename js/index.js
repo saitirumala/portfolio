@@ -10,7 +10,7 @@ var human = {
 	color: 'white'
 };
 console.log(document.getElementById('Name'));
-document.getElementById('Name').style.color = 'red';
+document.getElementById('Name').style.color = 'white';
 
 var sai = human;
 
