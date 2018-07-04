@@ -3,6 +3,44 @@ body{
     background: url(../assets/images/bgd1.jpg);
     margin-top: 0px;
 }
+.main_continer{
+    background-color:black; 
+    opacity:0.7;
+    width: 84%;
+    height:1870px;
+    border:25px solid black; 
+    border-top: 15px solid black;
+    margin:50px 80px 80px 80px;
+}
+.fadeinDownanimted>img{
+    width: 150px;
+    height: 200px; 
+    border: 3px solid silver;
+    margin: 60px 10px 10px 50px;
+    padding: 10px;
+    float: left;
+    opacity: 100%;
+}
+h1{
+    float: left; 
+    margin:120px 0px 0px 0px; 
+    color: white;
+}
+.Address{
+    width:400px;
+    font-size: 20px; 
+    font-weight: bold;
+}
+.emailphone{
+   color:white;
+   margin-right: 30px; 
+   float: right;
+   margin-top: -140px;
+}
+.emailphone>img{
+    width: 25px;
+    height: 25px;
+}
 .nav_bar{
     background-color: black;
     height:60px;
@@ -19,6 +57,76 @@ body{
     padding-left: 150px;
     font-weight: bold;
 }
+.sub_bar{
+    background-color: #ddd;
+    width: 100%;
+    height: 40px; 
+    margin-top: 40px;
+}
+.sub_bar>h3{
+    position: relative;
+    padding:10px 0px 0px 10px; 
+    font-weight: bold;
+
+}
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+     width:100%; margin-top: 40px; 
+     color: white; 
+     border-color: white;
+      font-style:italic;
+    }
+           td, th 
+           {
+           border: 1px solid white;text-align: left;padding: 8px;
+                   }
+
+           th{ background-color:#331a00;
+  }
+  ul{
+    margin-top: 30px; 
+    color: white; 
+    font-style: italic;
+   }
+   li{
+    text-align: justify;
+     font-size: 18px;
+   }
+   .sub_bar>p{
+    text-align: justify; 
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 18px;
+   }
+   .pgh1{
+    text-align: right; 
+    font-size: 18px;
+    margin-top: 30px; 
+    padding:15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+   }
+   .pgh2{
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 0px; 
+    padding:15px;
+    padding-top: 0px;
+   }
+   .pgh3{
+    float: left;
+    margin-top: 30px;
+    padding-top: 15px;
+    font-size: 18px;
+    margin-left: 30px;
+   }
+   .pgh4{
+    float: right;
+    font-size: 18px;
+    margin-right: 120px;
+    margin-top: 60px;
+   }
 
 div{
 
