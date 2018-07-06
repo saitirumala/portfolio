@@ -152,13 +152,7 @@ table{
     margin-bottom: 0px;
     padding-bottom: 0px;
    }
-   .pgh2{
-    text-align: justify;
-    font-size: 20px;
-    margin-top: 0px; 
-    padding:15px;
-    padding-top: 0px;
-   }
+   
    .pgh3{
     float: left;
     margin-top: 30px;
@@ -170,14 +164,13 @@ table{
     float: right;
     font-size: 20px;
     margin-right: 120px;
-    margin-top: 60px;
+    margin-top: 100px;
    }
 
-div{
-
+.fadeinDownanimted,.sub_bar{
     position: relative;
-	-webkit-animation: mymove 3s 1;
-    animation: mymove 15s ;
+	-webkit-animation: mymove 5s 2;
+    animation: mymove 10s ;
 }
 
 #sub_bar1 {-webkit-animation-timing-function: linear;}
