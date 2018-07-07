@@ -2,38 +2,140 @@
 <html>  
     <head>
 	    <title>My Resume</title>
-      <link rel="stylesheet" type="text/css" href="css/index.css">
+      <style type="text/css">
+        body{
+    background: url(../assets/images/resumebg.jpg);
+    margin-top: 0px;
+}
+.main_continer{
+    background-color:black; 
+    opacity:0.7;
+    width: 84%;
+    height:1870px;
+    border:25px solid black; 
+    border-top: 15px solid black;
+    margin:50px 100px 80px 0px;
+    float: right;
+    border:2px solid white;
+}
+.fadeinDownanimted>img{
+    width: 150px;
+    height: 200px; 
+    border: 3px solid silver;
+    margin: 60px 10px 10px 50px;
+    padding: 10px;
+    float: left;
+    opacity: 1;
+}
+h1{
+    float: left; 
+    margin:120px 0px 0px 0px; 
+    color: #b3ff1a;
+    padding:0px;
+}
+.Address{
+    width:400px;
+    font-size: 20px; 
+    font-weight: bold;
+    color: #00cccc;
+}
+.emailphone{
+   color:#8cd9b3;
+   margin-right: 30px; 
+   float: right;
+   margin-top: -140px;
+   font-size: 20px;
+}
+.emailphone>img{
+    width: 25px;
+    height: 25px;
+}
+.sub_bar{
+    background-color: #aaa;
+    width: 100%;
+    height: 40px; 
+    margin-top: 40px;
+
+}
+.sub_bar>h3{
+    position: relative;
+    padding:10px 0px 0px 10px; 
+    font-weight: bold;
+    opacity: 100%;
+
+}
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+     width:100%; margin-top: 40px; 
+     color: white; 
+     border-color: white;
+    }
+           td, th 
+           {
+           border: 1px solid white;text-align: left;padding: 8px;font-style:italic;
+                   }
+
+           th{ background-color:  black;
+                color: white;
+                font-weight: bold;
+                font-style: inherit;
+                opacity: 0.9;
+  }
+  ul{
+    margin-top: 30px; 
+    color: white; 
+    font-style: italic;
+   }
+   li{
+    text-align: justify;
+     font-size: 20px;
+   }
+   .sub_bar>p{
+    color: white;
+    text-align: justify; 
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 18px;
+   }
+   .pgh1{
+    text-align: right; 
+    font-size: 20px;
+    margin-top: 30px; 
+    padding:15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+   }
+   
+   .pgh3{
+    float: left;
+    margin-top: 30px;
+    padding-top: 15px;
+    font-size: 20px;
+    margin-left: 30px;
+   }
+   .pgh4{
+    float: right;
+    font-size: 20px;
+    margin-right: 120px;
+    margin-top: 100px;
+   }
+}
+p{
+  color: white;
+    font-style: italic;
+}
+      </style>
     </head>
     <body>
-      <div class="nav_bar">
-        <img src="assets/images/home.png"><a href="https://saitirumala.github.io/portfolio/""><B>HOME</B></a>
-        <img src="assets/images/resume.png"><a href="file:///C:/Users/sai%20prasad/Desktop/myGithub/portfolio/templates/resume.html"><B>RESUME
-        </B></a>
-        <img src="assets/images/project.png"><a href="file:///C:/Users/sai%20prasad/Desktop/myGithub/portfolio/templates/project.html"><B>PROJECTS</B></a>
-        <img src="assets/images/about.png"><a href="file:///C:/Users/sai%20prasad/Desktop/myGithub/portfolio/templates/about_me.html"><B>ABOUT</B></a>
-        <img src="assets/images/gallery.png"><a href="file:///C:/Users/sai%20prasad/Desktop/myGithub/portfolio/templates/gallery.html"><B>GALLERY</B></a>
-      </div>
-      <div class="side_bar">
-        <h2>MENU</h2><hr>
-        <a href="https://saitirumala.github.io/portfolio/">Home</a><br><hr>
-        <a href="file:///C:/Users/sai%20prasad/Desktop/myGithub/portfolio/templates/profile.html">Profile</a><br><hr>
-        <a href="file:///C:/Users/sai%20prasad/Desktop/myGithub/portfolio/templates/education.html">Education</a><br><hr>
-        <a href="file:///C:/Users/sai%20prasad/Desktop/myGithub/portfolio/templates/skills.html">Technical Skills</a><br><hr>
-        <a href="https://saitirumala.github.io/portfolio/">Experience</a><br><hr>
-        <a href="file:///C:/Users/sai%20prasad/Desktop/myGithub/portfolio/templates/project.html">Projects Done</a><br><hr>
-        <a href="file:///C:/Users/sai%20prasad/Desktop/myGithub/portfolio/templates/FutureProjects.html">Future Projects</a><br><hr>
-        <a href="file:///C:/Users/sai%20prasad/Desktop/myGithub/portfolio/templates/about_me.html">About</a><br><hr>
-        <a href="file:///C:/Users/sai%20prasad/Desktop/myGithub/portfolio/templates/gallery.html">Gallery</a><br><hr>
-        <a href="file:///C:/Users/sai%20prasad/Desktop/myGithub/portfolio/templates/contactus.html">Contact.No</a><hr>
-      </div>
-
+      
     	<div class="main_continer">
 	 
     		<div class="fadeinDownanimted">
-    		  <img src ="assets/images/sai.JPG">  
+    		  <img src ="../assets/images/sai.JPG">  
     		  <h1 id="name">T. SAI PRASAD</h1>
     		  <p class="Address">S/O T.Sreepathy,<br> Pakala (M),<br>Chittoor (Dist),<br>A.P,India.</p>
-    		  <p class="emailphone"><img src ="assets/images/mail.png">saiprasadtirumala.t@gmail.com<br><img src ="assets/images/phone.png"> 9492704294</p>
+    		  <p class="emailphone"><img src ="../assets/images/mail.png">saiprasadtirumala.t@gmail.com<br><img src ="../assets/images/phone.png"> 9492704294</p>
     	    
     	    <hr>
     	    <div class ="sub_bar">  

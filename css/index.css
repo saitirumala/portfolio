@@ -3,37 +3,38 @@ body{
     background: url(../assets/images/bgd1.jpg);
     margin-top: 0px;
 }
+
 .side_bar{
-    width: 11%;
-    background-color: black;
-    opacity: 0.7;
+    width: 14.3%;
+    background-color: #9999ff;
+    opacity: 0.9;
     float:left;
     height: 1870px;
-    margin-top: 20px;
+    margin-top: 1px;
     margin-left: 0px;
     border: 2px solid white;
 }
 .side_bar>h2{
-    color:#6699ff;
+    color: #001a00;
     margin-top:0px;
     margin-bottom: 20px;
     padding: 15px;
 }
 .side_bar>a{
     font-size: 22px;
-    color: #00b3b3;
+    color: #001a00;
     text-decoration: none;
    padding-left: 10px;
    padding-bottom: 15px;
 }
 .main_continer{
     background-color:black; 
-    opacity:0.6;
+    opacity:0.7;
     width: 84%;
     height:1870px;
     border:25px solid black; 
     border-top: 15px solid black;
-    margin:20px 10px 80px 0px;
+    margin:1px 10px 80px 0px;
     float: right;
     border:2px solid white;
 }
@@ -44,7 +45,7 @@ body{
     margin: 60px 10px 10px 50px;
     padding: 10px;
     float: left;
-    opacity: 100%;
+    opacity: 1;
 }
 h1{
     float: left; 
@@ -70,11 +71,12 @@ h1{
     height: 25px;
 }
 .nav_bar{
-    background-color: black;
+    background-color: #9999ff ;
     height:60px;
     width: 100%;
-    opacity: 0.6;
+    opacity: 0.9;
     border:2px solid white;
+    margin-bottom: 10px;
     
 }
 .nav_bar>img{
@@ -88,7 +90,7 @@ h1{
 }
 
 .nav_bar>a {
-    color: #fc9cfc;
+    color: #99004d;
     font-size: 18px;
     text-decoration:none;
     opacity: 100%;
